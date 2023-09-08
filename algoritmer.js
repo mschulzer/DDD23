@@ -1,10 +1,4 @@
-
-
-/******************************************************
- *    ALGORITME # 1
- ******************************************************/
 function findGGMotiver(inputStreng) {
-    // Lav et objekt over frekvensen af de respektive mønstre
     let frekvenser = {
         'GGA': 0,
         'GGC': 0,
@@ -17,6 +11,7 @@ function findGGMotiver(inputStreng) {
         let moenster = inputStreng.substring(i, i+3); // Udtag en understreng af 3 nukleotider
         if (moenster.startsWith('GG') && frekvenser.hasOwnProperty(moenster)) {
             frekvenser[moenster]++;
+            //console.log(`første match starter ved index: ${i}`);
         }
     }
 
