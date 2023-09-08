@@ -4,6 +4,7 @@
  *    ALGORITME # 1
  ******************************************************/
 function findGGMotiver(inputStreng) {
+    // Lav et objekt over frekvensen af de respektive mønstre
     let frekvenser = {
         'GGA': 0,
         'GGC': 0,
