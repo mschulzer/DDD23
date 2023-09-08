@@ -22,4 +22,4 @@ function findGGMotiver(inputStreng) {
 
 let dnaStump = "AGTCCAGTTTAAGTCTGCCGTTTGCTGACAGGACGGCATTGGCTGGGTCGCGGGCAACGTGGTGTCTAC";
 
-console.log(findGGMotiver(dnaStump));
+console.log(findGGMotiver(dnaStump)); // Output: {GGA: 1, GGC: 3, GGG: 2, GGT: 2}
