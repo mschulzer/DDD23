@@ -1,4 +1,6 @@
 function findGGMotiver(inputStreng) {
+    
+    // Lav et objekt til at holde styr på frekvenserne af mønstrene
     let frekvenser = {
         'GGA': 0,
         'GGC': 0,
